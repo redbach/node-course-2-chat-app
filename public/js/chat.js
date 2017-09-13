@@ -97,5 +97,6 @@ locationButton.on('click', function () {
   }, function () {
     locationButton.removeAttr('disabled').text('Send location');
     alert('Unable to fetch location.');
+    console.warn(`Unable to fetch location >> ${err.code}): ${err.message}`);
   });
 });
