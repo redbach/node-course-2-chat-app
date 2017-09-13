@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: .95rem;
+  font-weight: 300;
   margin: 0;
   padding: 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: .95rem;
 }
 
 ul, li {
@@ -12,14 +12,14 @@ ul, li {
 }
 
 h3 {
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  font-size: 1.5rem;
 }
 
 button {
-  border: none;
   background: #265f82;
+  border: none;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -27,37 +27,37 @@ button {
 }
 
 button:hover {
-  border: none;
   background: #1F4C69;
+  border: none;
   color: white;
   padding: 10px;
 }
 
 button:disabled {
-  cursor: default;
   background: #698ea5;
+  cursor: default;
 }
 
 .centered-form {
-  display: flex;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
-  justify-content: center;
   background: -moz-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ff3.6+ */
+  background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ie10+ */
+  background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* opera 11.10+ */
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(49,84,129,1)), color-stop(100%, rgba(39,107,130,1))); /* safari4+,chrome */
   background: -webkit-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ie10+ */
   background: linear-gradient(325deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* w3c */
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
 }
 
 .centered-form__form {
   background: rgba(250, 250, 250, 0.9);
-  border: 1px solid #e1e1e1;
   border-radius: 5px;
-  padding: 0px 20px;
+  border: 1px solid #e1e1e1;
   margin: 20px;
+  padding: 0px 20px;
   width: 230px;
 }
 
@@ -84,15 +84,15 @@ button:disabled {
 }
 
 .chat__sidebar {
-  overflow-y: scroll;
-  width: 260px;
-  height: 100vh;
   background: -moz-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ff3.6+ */
+  background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ie10+ */
+  background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* opera 11.10+ */
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(49,84,129,1)), color-stop(100%, rgba(39,107,130,1))); /* safari4+,chrome */
   background: -webkit-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ie10+ */
   background: linear-gradient(325deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* w3c */
+  height: 100vh;
+  overflow-y: scroll;
+  width: 260px;
 }
 
 .chat__sidebar h3 {
@@ -107,10 +107,10 @@ button:disabled {
 
 .chat__sidebar li {
   background: #e6eaee;
-  border: 1px solid #e1e1e1;
   border-radius: 5px;
-  padding: 10px;
+  border: 1px solid #e1e1e1;
   margin: 10px;
+  padding: 10px;
 }
 
 .chat__main {
@@ -121,22 +121,22 @@ button:disabled {
 }
 
 .chat__messages {
+  -webkit-overflow-scrolling: touch;
   flex-grow: 1;
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 .chat__footer {
   background: #e6eaee;
   display: flex;
-  padding: 10px;
-  /*height: 60px;*/
   flex-shrink: 0;
+/*  height: 60px;*/
+  padding: 10px;
 }
 
 .chat__footer form {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
 }
 
 .chat__footer form * {
@@ -145,8 +145,8 @@ button:disabled {
 
 .chat__footer input {
   border: none;
-  padding: 10px;
   flex-grow: 1;
+  padding: 10px;
 }
 
 .chat__messages {
@@ -193,4 +193,3 @@ button:disabled {
     margin-right: 0px;
   }
 }
-Sign up for free
